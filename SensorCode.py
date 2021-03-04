@@ -26,6 +26,7 @@ finally:                  # When you CTL+C out of the try block, you end up here
 
 
 
+"""
 
 #inputs changing outputs
 import RPi.GPIO as GPIO  
@@ -46,3 +47,4 @@ try:
   
 finally:                   # this block will run no matter how the try block exits  
     GPIO.cleanup()  
+"""
